@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;result&apos; in &apos;com.dhaval.general.BestTimeBuySell2.compareStocks(...)&apos; to &apos;profit&apos;&#x0D;&#x0A;- Original project: &apos;general&apos;&#x0D;&#x0A;- Original element: &apos;com.dhaval.general.BestTimeBuySell2.compareStocks(int[]).result&apos;&#x0D;&#x0A;- Renamed element: &apos;result&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;result&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.dhaval.general{BestTimeBuySell2.java[BestTimeBuySell2~compareStocks~\[I@result!1495!1519!1499!1504!I!0!false" name="profit" references="true" stamp="1480588655497" version="1.0"/>
+</session>

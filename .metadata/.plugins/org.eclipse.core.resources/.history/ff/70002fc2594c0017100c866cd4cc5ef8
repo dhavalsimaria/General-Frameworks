@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.dhaval.springbootfileupload.controller;
+
+/**
+ * @author a611021
+ *
+ */
+public class RestUploadController {
+
+}

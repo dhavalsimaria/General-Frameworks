@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.dhaval.springbootfileupload.model;
+
+/**
+ * @author Dhaval
+ *
+ */
+public class UploadModel {
+
+}

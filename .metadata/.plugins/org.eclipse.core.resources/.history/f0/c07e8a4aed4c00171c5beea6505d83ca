@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.dhaval.springbootfileupload.exception;
+
+/**
+ * @author a611021
+ *
+ */
+public class RestGlobalExceptionHandler {
+
+}

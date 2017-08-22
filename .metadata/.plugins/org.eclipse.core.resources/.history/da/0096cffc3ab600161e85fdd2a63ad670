@@ -1,0 +1,37 @@
+/**
+ * 
+ */
+package com.dhaval.general;
+
+import java.util.Scanner;
+
+/**
+ * @author Dhaval
+ *
+ */
+public class HouseRobber {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		Scanner scn = new Scanner(System.in);
+		
+		System.out.println("Enter the number of elements in array: ");
+		int arrSize = scn.nextInt(); 
+		
+		int arr[] = new int[arrSize];
+		
+		System.out.print("Enter "+ arrSize +" elements: ");
+		
+		for(int i = 0; i < arrSize; i++){
+			arr[i] = scn.nextInt();
+		}
+		
+		int result = houseRob(arr);
+		
+		System.out.println("Max. amount that can be robbed is: " + result);
+	}
+
+}

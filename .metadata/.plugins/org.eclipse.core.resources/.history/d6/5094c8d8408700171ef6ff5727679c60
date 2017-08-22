@@ -1,0 +1,5 @@
+package com.dhaval.baeldung.config;
+
+public class Config {
+
+}

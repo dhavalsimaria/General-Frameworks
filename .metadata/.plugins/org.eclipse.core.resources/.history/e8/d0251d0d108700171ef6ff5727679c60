@@ -1,0 +1,10 @@
+package com.dhaval.baeldung;
+
+public class SpellChecker {
+	public SpellChecker(String str1, String str2){
+	      System.out.println(str1 + " " + str2 + "Dependency class");
+	   }
+	   /*public void checkSpelling() {
+	      System.out.println("Inside checkSpelling." );
+	   }*/
+}

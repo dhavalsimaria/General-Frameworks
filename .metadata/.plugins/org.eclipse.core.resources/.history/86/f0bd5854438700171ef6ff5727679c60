@@ -1,0 +1,23 @@
+package com.dhaval.baeldung.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import com.dhaval.baeldung.Lesson;
+import com.dhaval.baeldung.Subject;
+
+@Configuration
+@ComponentScan("com.dhaval.baeldung")
+public class Config {
+
+	@Bean
+	public Subject subject(){
+		return new Subject(lesson());
+	}
+	
+	@Bean
+	public Lesson lesson(){
+		return new Lesson("Hello", "World");
+	}
+}

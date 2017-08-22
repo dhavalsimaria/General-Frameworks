@@ -1,0 +1,21 @@
+package com.dhaval.baeldung;
+
+public class Subject {
+	private Lesson lesson;
+
+	 /*  public Subject(Lesson lesson) {
+	      System.out.println("Hi, I'm Dependent class" );
+	      this.lesson = lesson;
+	   }*/
+	   public void spellCheck() {
+		   lesson.checkSpelling();
+	   }
+	public Lesson getLesson() {
+		return lesson;
+	}
+	public void setLesson(Lesson lesson) {
+		this.lesson = lesson;
+	}
+	   
+	   
+}

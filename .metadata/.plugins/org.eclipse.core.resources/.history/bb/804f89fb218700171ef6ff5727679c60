@@ -1,0 +1,13 @@
+package com.dhaval.baeldung;
+
+public class Subject {
+	private Lesson spellChecker;
+
+	   public Subject(Lesson spellChecker) {
+	      System.out.println("Hi, I'm Dependent class" );
+	      this.spellChecker = spellChecker;
+	   }
+	   public void spellCheck() {
+	      spellChecker.checkSpelling();
+	   }
+}

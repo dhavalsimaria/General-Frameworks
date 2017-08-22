@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package com.dhaval.general;
+
+/**
+ * @author a611021
+ *
+ */
+public class HouseRobber {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

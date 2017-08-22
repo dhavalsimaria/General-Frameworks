@@ -1,0 +1,27 @@
+package com.dhaval.general;
+
+/**
+ * Why 'max <= i' is checked?
+ */
+
+
+import java.util.Scanner;
+
+public class JumpGame {
+
+	public static void main(String[] args) {
+		int arr[] = new int[5];
+		
+		Scanner scn = new Scanner(System.in);
+		
+		System.out.print("Enter five elements: ");
+		
+		for(int i = 0; i <= 5; i++){
+			arr[i] = scn.nextInt();
+		}
+		
+		
+
+	}
+
+}
