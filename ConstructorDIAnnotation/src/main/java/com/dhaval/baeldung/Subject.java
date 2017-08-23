@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component("subject")
 public class Subject {
+
 	private Lesson lesson;
 
 	   @Autowired

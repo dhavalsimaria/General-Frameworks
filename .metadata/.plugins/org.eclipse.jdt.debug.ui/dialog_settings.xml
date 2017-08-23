@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="82" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth2"/>
+	<item value="1" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn"/>
+	<item value="194" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1"/>
+	<item value="121" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0"/>
 	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
 		<item value="true" key="ShowStatusLine"/>
-		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=course-api-data/src\/main\/java&amp;lt;com.dhaval.springboot{CourseApiDataApplication.java[CourseApiDataApplication&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=course-api-data/src\/main\/java&amp;lt;io.javabrains.springbootstarter{CourseApiDataApplication.java[CourseApiDataApplication&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=course-api-data/src\/main\/java&amp;lt;com.dhaval.springboot{CourseApiDataApplication.java[CourseApiDataApplication&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=course-api-data/src\/main\/java&amp;lt;io.javabrains.springbootstarter{CourseApiDataApplication.java[CourseApiDataApplication&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=ConstructorDI/C:\/Users\/A611021\/.m2\/repository\/ch\/qos\/logback\/logback-classic\/1.0.13\/logback-classic-1.0.13.jar&amp;lt;ch.qos.logback.classic.net(JMSQueueSink.class[JMSQueueSink&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=ConstructorDI/C:\/Users\/A611021\/.m2\/repository\/junit\/junit\/4.11\/junit-4.11.jar&amp;lt;org.junit.runner(JUnitCore.class[JUnitCore&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
 		<section name="DialogBoundsSettings">
 			<item value="600" key="DIALOG_WIDTH"/>
 			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>

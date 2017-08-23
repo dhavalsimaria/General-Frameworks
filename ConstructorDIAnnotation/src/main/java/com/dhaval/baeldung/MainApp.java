@@ -7,7 +7,7 @@ public class MainApp {
 	public static void main(String[] args) {
 		AbstractApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
 
-	      Subject sub = (Subject) context.getBean("subject");
+	      Subject sub = (Subject) context.getBean(Subject.class);
 	      sub.beginStudy();
 	    
 	   }

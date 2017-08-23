@@ -4,15 +4,24 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.dhaval.baeldung"/>
 			<item value="com.dhaval"/>
 			<item value="com.dhaval.springboot"/>
 			<item value="io.dhaval.springboot"/>
 		</list>
 		<list key="name">
+			<item value="SetterDIAnnotation"/>
+			<item value="ConstructorDIAnnotation"/>
+			<item value="SetterDI"/>
+			<item value="ConstructorDI"/>
 			<item value="spring-boot-file-upload"/>
 			<item value="Java Brains Course API"/>
 		</list>
 		<list key="artifactId">
+			<item value="SetterDIAnnotation"/>
+			<item value="ConstructorDIAnnotation"/>
+			<item value="SetterDI"/>
+			<item value="ConstructorDI"/>
 			<item value="spring-boot-file-upload"/>
 			<item value="course-api"/>
 		</list>
@@ -77,6 +86,9 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Dhaval\Workspace\General\ConstructorDIAnnotation\src\main\java\com\dhaval\baeldung\Subject.java"/>
+			<item value="C:\Dhaval\Workspace\General\ConstructorDIAnnotation\src\main\java\com\dhaval\baeldung\Config.java"/>
+			<item value="C:\Dhaval\Workspace\General\ConstructorDI"/>
 			<item value="C:\Dhaval\Workspace\General\course-api\src\main\java\io\javabrains\springbootstarter\CourseApiApp.java"/>
 		</list>
 		<list key="projectNameTemplate">

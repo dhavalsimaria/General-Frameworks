@@ -1,0 +1,19 @@
+package com.dhaval.baeldung;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class Config {
+
+	public Subject subject(){
+		Subject sub = new Subject();
+		sub.setLesson(lesson());
+		return sub;
+	}
+	
+	public Lesson lesson(){
+		Lesson les = new Lesson();
+		les.setMessage1("Hello World");
+		return les;
+	}
+}
