@@ -6,14 +6,14 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class Config {
-	
+
 	@Bean
-	public Subject subject(){
+	public Subject subject() {
 		return new Subject(lesson());
 	}
-	
-	@Bean(name="lesson")
-	public Lesson lesson(){
+
+	@Bean(name = "lesson")
+	public Lesson lesson() {
 		return new Lesson("Hello", "World");
 	}
 }
