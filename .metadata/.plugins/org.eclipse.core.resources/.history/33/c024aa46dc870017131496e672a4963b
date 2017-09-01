@@ -1,8 +1,0 @@
-package com.dhaval.baeldung;
-
-import org.springframework.stereotype.Component;
-
-@Component("subject")
-public class Subject {
-
-}
