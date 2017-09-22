@@ -25,8 +25,6 @@ public class Problem1 {
 
         final double totalWeight = 100.00;
 
-        final double totalCost = 100.00;
-
         String fileName = "C://Dhaval//New General//Whatfix//inputs.txt";
 
         // read file into stream, try-with-resources
@@ -40,27 +38,19 @@ public class Problem1 {
                 cost.clear();
                 // int lineNo = scanner.nextInt();
                 double caseWeight = scanner.nextDouble();
-                if (caseWeight <= 100.00) {
+                if (caseWeight <= totalWeight) {
                     System.out.println("Case weight is: " + caseWeight);
 
                     String tempString = scanner.nextLine();
-                    // System.out.println("Entire remaining line: " + tempString);
+
                     String[] eachCase = tempString.split("\\(");
                     for (int j = 0; j < eachCase.length; j++) {
-                        // System.out.println(eachCase[j]);
                         String[] eachElement = eachCase[j].split("\\,");
-                        // System.out.println();
-
                         if (eachElement.length > 1) {
                             for (int i = 1; i < eachElement.length; i++) {
-                                // System.out.println(eachElement[i]);
-
                                 if (eachElement[i].matches("[0-9]{1,2}\\.[0-9]{1,2}|100|0")) {
-                                    // System.out.println(Double.parseDouble(eachElement[i]));
                                     weight.add(Double.parseDouble(eachElement[i]));
                                 } else {
-                                    /*System.out.println(eachElement[i].substring(1, eachElement[i].trim()
-                                    .length() - 1));*/
                                     cost.add(Double.parseDouble(eachElement[i].substring(1, eachElement[i].trim()
                                         .length() - 1)));
                                 }
@@ -70,7 +60,6 @@ public class Problem1 {
                     }
                     Set<Integer> result = calculateWeightCost(weight, cost, caseWeight);
                     result.forEach(System.out::println);
-                    // System.out.println();
                 }
             }
 
@@ -84,31 +73,36 @@ public class Problem1 {
 
         int n = cost.size();
         int W = (int) caseWeight;
-        double W1 = 0.00;
         double pack[][] = new double[n + 1][W + 1];
         Set<Integer> itemIndex = new HashSet<Integer>(); /** To store the index of items that are packed */
-
         /** For loop iterates over all the items */
         for (int i = 0; i <= n; i++) {
             for (int j = 0; j <= W; j++) {
                 double weightCtr = j;
-
                 if (i == 0 || j == 0)
                     pack[i][j] = 0;
                 else if (weight.get(i - 1) <= weightCtr) {
-                    // System.out.println("weightCtr: " + weightCtr + ", weight.get(i - 1): " + weight.get(i - 1));
                     int weightDiff = (int) (weightCtr - weight.get(i - 1));
-                    // System.out.println("WORKING: " + (i - 1) + ", " + weightDiff + ", " + j);
                     pack[i][j] = max(cost.get(i - 1) + pack[i - 1][weightDiff], pack[i - 1][j]);
+                    System.out.println("pack[i][j]" + pack[i][j]);
                     if (pack[i][j] > pack[i - 1][j])
                         itemIndex.add(i);
 
-                    // System.out.println("pack[i][j]" + pack[i][j]);
+                    /* if (weight.get(i) + weight.get(i - 1) < caseWeight)
+                        itemIndex.add(i);*/
                 } else
                     pack[i][j] = pack[i - 1][j];
-                // }
+
             }
+
         }
+        /*for (int i = 0; i <= n; i++) {
+            for (int j = 0; j <= W; j++) {
+                while (pack[i][j] != 0) {
+        
+                }
+            }
+        }*/
         System.out.println("pack[n][W]" + pack[n][W]);
         return itemIndex;
     }
