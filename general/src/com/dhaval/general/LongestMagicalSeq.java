@@ -51,7 +51,7 @@ public class LongestMagicalSeq {
         System.out.println("MaxLength: " + maxLength.length);
         int result = 0;
         for (int i = 0; i < maxLength.length; i++) {
-            // System.out.println("MaxLength elements: " + maxLength[i]);
+            System.out.println("MaxLength elements: " + maxLength[i]);
             if (maxLength[i] > result) {
                 System.out.println(maxLength[i]);
                 result = maxLength[i];
