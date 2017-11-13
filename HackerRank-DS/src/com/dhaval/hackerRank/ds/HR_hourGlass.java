@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.dhaval.general;
+package com.dhaval.hackerRank.ds;
 
 import java.util.Scanner;
 
